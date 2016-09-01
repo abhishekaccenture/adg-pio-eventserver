@@ -8,4 +8,4 @@ libraryDependencies ++= Seq(
 
 cancelable in Global := true
 
-enablePlugins(JavaAppPackaging)
+val foo = enablePlugins(JavaAppPackaging)
