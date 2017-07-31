@@ -10,8 +10,8 @@ export PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc
 
 if [ -z "${DATABASE_URL}" ]; then
     export PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgres://yhyvscwjaocuvd:1e14753b35f603614db4e832161cfd8e96e60bae8f91d088400f9370ebae3480@ec2-23-21-169-238.compute-1.amazonaws.com:5432/d9a9vkkbp3ookh
-    export PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio
-    export PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio
+    export PIO_STORAGE_SOURCES_PGSQL_USERNAME=yhyvscwjaocuvd
+    export PIO_STORAGE_SOURCES_PGSQL_PASSWORD=1e14753b35f603614db4e832161cfd8e96e60bae8f91d088400f9370ebae3480
 else
     # from: http://stackoverflow.com/a/17287984/77409
     # extract the protocol
